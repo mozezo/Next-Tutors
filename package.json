@@ -1,0 +1,27 @@
+{
+  "name": "next-tutors",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@styled-system/theme-get": "^5.1.2",
+    "antd": "^4.5.3",
+    "babel-preset-es2015": "^6.24.1",
+    "next": "9.5.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-icons": "^3.10.0",
+    "react-stickynode": "^3.0.3",
+    "styled-components": "^5.1.1",
+    "styled-system": "^5.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "@types/react": "^16.9.45",
+    "typescript": "^3.9.7"
+  }
+}
