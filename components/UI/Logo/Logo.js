@@ -9,13 +9,13 @@ const LogoNext = ({ className, withLink, linkTo, title, src }) => {
       {withLink ? (
         <Link href={linkTo}>
           <a>
-            {src && <img src={src} alt="TripFinder." />}
+            {src && <img src={src} alt="" />}
             {title && <h3>{title}</h3>}
           </a>
         </Link>
       ) : (
         <Fragment>
-          {src && <img src={src} alt="TripFinder." />}
+          {src && <img src={src} alt="" />}
           {title && <h3>{title}</h3>}
         </Fragment>
       )}
